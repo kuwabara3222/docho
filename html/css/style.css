@@ -19,6 +19,10 @@ body{
     padding: 80px 0 40px 0;
 }
 
+.title60{
+    padding: 80px 0 60px 0;
+}
+
 /*#header*/
 #header{
     position: absolute;
@@ -103,7 +107,7 @@ body{
     top: 341px;
 }
 
-/*#about*/
+/*#top-about*/
 #top-about{
     background-color: #ffdbd5;
     overflow: hidden;
@@ -125,4 +129,38 @@ body{
 
 .txt-about2{
     margin-bottom: 85px;
+}
+
+/*#top-event*/
+#top-event{
+    text-align: center;
+}
+
+.content-event{
+    list-style-type: none;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.content-event li{
+    width: 300px;
+    height: 280px;
+    color: #f2ead4;
+    background-color: #dc6968;
+    float: left;
+    margin-right: 20px;
+}
+
+.content-event li:last-child{
+    margin-right: 0;
+}
+
+.btn{
+    display: inline-block;
+    color: #dc6968;
+    border: 2px solid #dc6968;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 12px 93px;
+    margin-bottom: 80px;
 }
