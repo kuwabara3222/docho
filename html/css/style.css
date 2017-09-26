@@ -8,20 +8,25 @@ body{
     background-color: #f2ead4;
 }
 
-/*.innner*/
+.padding{
+    padding: 80px 0;
+}
+
 .innner{
     width: 940px;
     margin: 0 auto;
 }
 
+
 /*.title*/
 .title40{
-    padding: 80px 0 40px 0;
+    margin-bottom: 40px;
 }
 
 .title60{
-    padding: 80px 0 60px 0;
+    margin-bottom: 60px;
 }
+
 
 /*#header*/
 #header{
@@ -107,6 +112,7 @@ body{
     top: 341px;
 }
 
+
 /*#top-about*/
 #top-about{
     background-color: #ffdbd5;
@@ -128,12 +134,27 @@ body{
 }
 
 .txt-about2{
-    margin-bottom: 85px;
+    margin-bottom: 5px;
 }
+
 
 /*#top-event*/
 #top-event{
     text-align: center;
+}
+
+.title3{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.fz16{
+    font-size: 16px;
+}
+
+.term{
+    font-size: 18px;
 }
 
 .content-event{
@@ -162,8 +183,8 @@ body{
     border-radius: 5px;
     text-decoration: none;
     padding: 12px 93px;
-    margin-bottom: 80px;
 }
+
 
 /*#top-gallery*/
 #top-gallery{
@@ -187,9 +208,6 @@ body{
     margin-right: 0;
 }
 
-.img-gallery  li:nth-child(n+5){
-    margin-bottom: 80px;
-}
 
 /*#top-access*/
 #top-access{
@@ -198,28 +216,28 @@ body{
 
 .img-access{
     float: left;
-    margin-bottom: 40px;
+    margin: 0 0 40px 60px;
 }
 
 .adress{
     padding-top: 52px;
-    margin-left: 582px;
+    margin-left: 642px;
 }
 
 .access{
     clear: both;
-    margin-bottom: 80px;
+    margin-left: 60px;
 }
+
 
 /*#footer*/
 #footer{
-    padding: 80px 0 40px 0;
     text-align: center;
     background-color: #a6393e;
 }
 
-.logo-footer img{
- 
+.logo-footer{
+    margin-bottom: 40px;
 }
 
 .footer-nav{
@@ -248,36 +266,36 @@ body{
 
 .fnav-top{
     display: block;
-    width: 55px;
-    height: 15px;
+    width: 44px;
+    height: 12px;
     background: url(../img/nav_footer_01.png) no-repeat center center;
 }
 
 .fnav-about{
     display: block;
-    width: 93px;
-    height: 15px;
+    width: 74px;
+    height: 12px;
     background: url(../img/nav_footer_02.png) no-repeat center center;
 }
 
 .fnav-event{
     display: block;
-    width: 92px;
-    height: 15px;
+    width: 73px;
+    height: 12px;
     background: url(../img/nav_footer_03.png) no-repeat center center;
 }
 
 .fnav-gallery{
     display: block;
-    width: 130px;
-    height: 15px;
+    width: 103px;
+    height: 12px;
     background: url(../img/nav_footer_04.png) no-repeat center center;
 }
 
 .fnav-access{
     display: block;
-    width: 113px;
-    height: 15px;
+    width: 90px;
+    height: 12px;
     background: url(../img/nav_footer_05.png) no-repeat center center;
 }
 
@@ -289,10 +307,9 @@ body{
 
 .sns-nav li{
     float: left;
-    margin: 0 22px 40px 22px;
+    margin: 0 22px;
 }
 
 .copyright{
     color: #ffdbd5;
-    padding-bottom: 80px;
 }
