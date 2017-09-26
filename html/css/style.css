@@ -164,3 +164,29 @@ body{
     padding: 12px 93px;
     margin-bottom: 80px;
 }
+
+/*#top-gallery*/
+#top-gallery{
+    text-align: center;
+    background-color: #ffdbd5;
+}
+
+.img-gallery{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.img-gallery li{
+    font-size: 0;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.img-gallery li:nth-child(4n){
+    margin-right: 0;
+}
+
+.img-gallery  li:nth-child(n+5){
+    margin-bottom: 80px;
+}
