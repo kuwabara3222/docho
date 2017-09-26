@@ -190,3 +190,23 @@ body{
 .img-gallery  li:nth-child(n+5){
     margin-bottom: 80px;
 }
+
+/*#top-access*/
+#top-access{
+    overflow: hidden;
+}
+
+.img-access{
+    float: left;
+    margin-bottom: 40px;
+}
+
+.adress{
+    padding-top: 52px;
+    margin-left: 582px;
+}
+
+.access{
+    clear: both;
+    margin-bottom: 80px;
+}
