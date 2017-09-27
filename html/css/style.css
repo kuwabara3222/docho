@@ -96,6 +96,41 @@ body{
     background: url(../img/nav_header_04.png) no-repeat center center;
 }
 
+.nav-top:hover{
+    display: block;
+    width: 55px;
+    height: 15px;
+    background: url(../img/nav_header_h05.png) no-repeat center center;
+}
+
+.nav-about:hover{
+    display: block;
+    width: 93px;
+    height: 15px;
+    background: url(../img/nav_header_h01.png) no-repeat center center;
+}
+
+.nav-event:hover{
+    display: block;
+    width: 92px;
+    height: 15px;
+    background: url(../img/nav_header_h02.png) no-repeat center center;
+}
+
+.nav-gallery:hover{
+    display: block;
+    width: 130px;
+    height: 15px;
+    background: url(../img/nav_header_h03.png) no-repeat center center;
+}
+
+.nav-access:hover{
+    display: block;
+    width: 113px;
+    height: 15px;
+    background: url(../img/nav_header_h04.png) no-repeat center center;
+}
+
 
 /*#mv*/
 #mv{
